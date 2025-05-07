@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="Luxury Hotel, Boutique Stay, Oceanfront Hotel, Modern Hotel, Hotel Booking, The Lumina Stay, Stay Lumina, Beach Resort">
+		<meta name="description" content="The Lumina Stay offers a luxurious boutique hotel experience with stunning views, premium amenities, and exceptional hospitality. Book your dream stay now at staylumina.com.">
+		<meta name="author" content="The Lumina Stay Design Team">
+		<title>The Lumina Stay | Boutique Hotel & Luxury Getaway</title>
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/owl.carousel.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+	<body>
+		<header class="header-area">
+			<div class="container">
+				<div class="header-part">
+					<div class="headerleft">
+						
+					</div>
+					<div class="headerinner">
+						<div class="headerlogo-text">
+							<h2>The Lumina Stay</h2>
+						</div>
+						<div class="menupart">
+							<img src="img/menuicon1.svg" alt="icon" class="menuicon1" />
+							<img src="img/closeicon.svg" alt="icon" class="closeicon" />
+
+						</div>
+					</div>
+					<div class="headerright">
+						<div class="header-btn">
+							<a href="#book">Book now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="nav-area">
+			<div class="container">
+				<div class="navpart">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#room">Rooms</a></li>
+						<li><a href="#amenities">Amenities</a></li>
+						<li><a href="#offer">Offer</a></li>
+						<li><a href="#review">Review</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="mailto:support@theluminastay.com">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="bmheader-btn">
+					<div class="header-btn">
+						<a href="#book"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mbhero-area">
+			<section class="hero-area">
+				<div class="container">
+					<div class="herotextpart">
+						<h1>Welcome to The Lumina Stay<br> Your Luxurious Escape Awaits</h1>
+						<p>Relax in style, wake up to breathtaking views, and enjoy a stay crafted for your comfort and indulgence.</p>
+						<a href="#welcome" class="btn-discover">Explore Now</a>
+						<span id="book"></span>
+					</div>
+				</div>
+			</section>
+		</section>
+		<section class="form-area">
+		 	  <div class="container">		 	  	 
+				<form id="bookingForm"> 
+					<div class="formpart">
+					  <div class="formitem">
+						<h3>Check in</h3>
+						<input type="date" id="checkin" name="Checkin" required>
+					  </div>
+					  <div class="formitem">
+						<h3>Check out</h3>
+						<input type="date" id="checkout" name="Checkout" required>
+					  </div>
+					  <div class="formitem">
+						<h3>Adult</h3>
+						<input type="number" id="quantity" name="quantity" min="1" max="50" placeholder="0" required>
+					  </div>
+					  <div class="formitem">
+						<h3>Email</h3>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+					  </div>
+					  <div class="formitem formitem5">
+						<input type="submit" value="Check In">
+					  </div>
+					</div>
+				  </form>
+				  
+				  <script>
+					document.getElementById("bookingForm").addEventListener("submit", function(event) {
+					  event.preventDefault(); 
+					  const checkin = document.getElementById("checkin").value;
+					  const checkout = document.getElementById("checkout").value;
+					  const adults = document.getElementById("quantity").value;
+					  const email = document.getElementById("email").value;
+					  if (checkin && checkout && adults && email) {
+						alert("Thanks! We are receiving your confirmation.");
+						this.reset();
+					  } else {
+						alert("Please fill out all fields.");
+					  }
+					});
+				  </script>				  
+		 	  </div>
+		</section>
+		<section class="wtlslv-area" id="welcome">
+			<div class="container">
+				<div class="wtlslvpart">
+					<div class="wtlslv-right">
+						<img src="img/img2.png" alt="Modern luxury hotel room at The Lumina Stay in Las Vegas" />
+					</div>
+					<div class="wtlslv-left">
+						<div class="wtlslvheading">
+							<h2>Welcome to The Lumina Stay Las Vegas</h2>
+						</div>
+						<div class="wtlslvtext">
+							<p>Nestled in the heart of Las Vegas, The Lumina Stay blends contemporary elegance with the dynamic energy of the Strip. Whether you're visiting for business, leisure, or a little of both, our hotel is your sanctuary from the city's nonstop excitement.</p>
+							<p>Enjoy sophisticated accommodations, personalized service, and thoughtful amenities designed to make every moment of your stay unforgettable.</p>
+						</div>
+						<div class="wtlslvbtn">
+							<a href="#book">Book Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section class="aboutus-area" id="about">
+			<div class="container">
+				<div class="aboutuspart">
+					<div class="aboutus-left">
+						<div class="aboutus-text">
+							<h2>About Us</h2>
+							<p>Located just steps from the world-famous Las Vegas Strip, The Lumina Stay is your serene escape amid the city’s vibrant energy. Our hotel offers the perfect blend of modern sophistication and heartfelt hospitality, creating a refreshing retreat for every traveler.</p>
+							<p>More than just a place to rest, The Lumina Stay is your home base for unforgettable experiences. Whether you're here to explore, entertain, or unwind, we provide the light-filled comfort and convenience you deserve.</p>
+						</div>
+					</div>
+					<div class="mbaboutus">
+						<img src="img/textimg1.png" alt="Decorative element - glowing line artwork" class="mbtextimg1" />
+					</div>
+		
+					<div class="aboutus-inner">
+						<img src="img/img3.png" alt="Elegant hotel lounge area at The Lumina Stay in Las Vegas" />
+					</div>
+		
+					<div class="mbaboutus">
+						<img src="img/textimg2.png" alt="Decorative element - soft wave graphic" class="mbtextimg2" />
+					</div>
+		
+					<div class="aboutus-right">
+						<div class="aboutus-text">
+							<h2>Amenities</h2>
+							<p>After a day exploring the thrills of Las Vegas, return to comfort and care at The Lumina Stay. We offer thoughtful amenities to elevate your stay, including high-speed Wi-Fi, in-room dining, laundry services, and a knowledgeable concierge team ready to assist with local recommendations.</p>
+							<p>Designed for both convenience and calm, our amenities ensure you’re well-rested and ready to experience the best of Vegas, day after day.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="img/textimg1.png" alt="Graphic accent - illuminated shape" class="textimg1" />
+			<img src="img/textimg2.png" alt="Graphic accent - smooth abstract design" class="textimg2" />
+		</section>
+		<section class="roomssuites-area" id="room">
+			<div class="container">
+				<div class="roomssuites-heading">
+					<h2>Rooms & Suites</h2>
+					<a href="#book">view all</a>
+				</div>
+				<div class="roomssuites-part">
+					<div class="slider1 owl-carousel">
+						<div>
+							<div class="mainroomssuites-box">
+								<div class="roomssuites-box">
+									<img src="img/roomssuitesimg1.png" alt="images not found" />
+									<div class="roomssuitesclbg"></div>
+									<div class="roomssuites-btn">
+										<a href="#book">view details</a>
+									</div>
+								</div>
+								<div class="roomssuites-text">
+									<h2>The High Roller Suite <span>$250</span></h2>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="mainroomssuites-box">
+								<div class="roomssuites-box">
+									<img src="img/roomssuitesimg2.png" alt="images not found" />
+									<div class="roomssuitesclbg"></div>
+									<div class="roomssuites-btn">
+										<a href="#book">view details</a>
+									</div>
+								</div>
+								<div class="roomssuites-text">
+									<h2>The Desert Serenity Studio <span>$240</span></h2>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="mainroomssuites-box">
+								<div class="roomssuites-box">
+									<img src="img/roomssuitesimg3.png" alt="images not found" />
+									<div class="roomssuitesclbg"></div>
+									<div class="roomssuites-btn">
+										<a href="#book">view details</a>
+									</div>
+								</div>
+								<div class="roomssuites-text">
+									<h2>The Neon Nook <span>$238</span></h2>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="mainroomssuites-box">
+								<div class="roomssuites-box">
+									<img src="img/roomssuitesimg1.png" alt="images not found" />
+									<div class="roomssuitesclbg"></div>
+									<div class="roomssuites-btn">
+										<a href="#book">view details</a>
+									</div>
+								</div>
+								<div class="roomssuites-text">
+									<h2>The High Roller Suite <span>$350</span></h2>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="mainroomssuites-box">
+								<div class="roomssuites-box">
+									<img src="img/roomssuitesimg2.png" alt="images not found" />
+									<div class="roomssuitesclbg"></div>
+									<div class="roomssuites-btn">
+										<a href="#book">view details</a>
+									</div>
+								</div>
+								<div class="roomssuites-text">
+									<h2>The Desert Serenity Studio <span>$299</span></h2>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="mainroomssuites-box">
+								<div class="roomssuites-box">
+									<img src="img/roomssuitesimg3.png" alt="images not found" />
+									<div class="roomssuitesclbg"></div>
+									<div class="roomssuites-btn">
+										<a href="#book">view details</a>
+									</div>
+								</div>
+								<div class="roomssuites-text">
+									<h2>The Neon Nook <span>$350</span></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ourgallerybtn">
+					<a href="#book">view all</a>
+				</div>
+			</div>
+		</section>
+		<section class="amenities-area" id="amenities">
+			<div class="container">
+				<div class="amenities-heading">
+					<h2>Amenities</h2>
+				</div>
+				<div class="amenities-part">
+					<div class="amenities-box">
+						<img src="img/amenitiesicon1.svg" alt="Icon representing hotel rooms and suites" />
+						<h3>Rooms & Suites</h3>
+						<p>Choose from a variety of accommodations — from stylish standard rooms to elegant luxury suites — all equipped with premium bedding, modern furnishings, and thoughtful touches.</p>
+					</div>
+					<div class="amenities-box">
+						<img src="img/amenitiesicon2.svg" alt="Icon showing security shield for 24-hour protection" />
+						<h3>24-Hour Security</h3>
+						<p>Your peace of mind is our priority. We offer around-the-clock security personnel and advanced surveillance systems, along with secure storage options for your valuables.</p>
+					</div>
+					<div class="amenities-box">
+						<img src="img/amenitiesicon3.svg" alt="Icon of a dumbbell representing the fitness center" />
+						<h3>Fitness & Wellness</h3>
+						<p>Recharge in our fully equipped fitness center, or unwind with spa-inspired services including massages, facials, and wellness treatments to rejuvenate body and mind.</p>
+					</div>
+					<div class="amenities-box">
+						<img src="img/amenitiesicon4.svg" alt="Wi-Fi signal icon representing free internet access" />
+						<h3>Complimentary Wi-Fi</h3>
+						<p>Stay connected with fast, reliable Wi-Fi access available throughout the hotel — in your room, the lobby, and all public spaces, absolutely free.</p>
+					</div>
+		
+				</div>
+			</div>
+		</section>
+		<section class="sprb-area" id="offer">
+			<div class="container">
+				<div class="sprbpart">
+					<div class="sprb-left">
+						<div class="sprbheading">
+							<img src="img/img1.png" alt="Luxury poolside view at The Lumina Stay in Las Vegas" />
+							<h2>Your Comfort is Our Priority at The Lumina Stay</h2>
+						</div>
+						<div class="sprbltitem-box">
+							<div class="sprbltitem-left">
+								<img src="img/icon1.svg" alt="Swimming pool icon" />
+							</div>
+							<div class="sprbltitem-right">
+								<h3>Swimming Pool</h3>
+								<p>Cool off in our sparkling outdoor pool — the ideal spot for a leisurely swim or a relaxing soak after a vibrant day in Las Vegas.</p>
+							</div>
+						</div>
+						<div class="sprbltitem-box">
+							<div class="sprbltitem-left">
+								<img src="img/icon2.svg" alt="Restaurant and cocktail glass icon" />
+							</div>
+							<div class="sprbltitem-right">
+								<h3>Restaurant & Bar</h3>
+								<p>Enjoy a range of delightful dishes and refreshing beverages at our in-house restaurant and bar — serving breakfast, brunch, lunch, snacks, and dinner daily.</p>
+							</div>
+						</div>
+						<div class="sprbbtn">
+							<a href="#book">Explore All Amenities</a>
+						</div>
+					</div>
+					<div class="sprb-right">
+						<img src="img/img1.png" alt="Elegant guest experience at The Lumina Stay" />
+					</div>
+		
+				</div>
+			</div>
+		</section>
+		<section class="testimonial-area" id="review">
+			<div class="container">
+				<div class="testimonial-heading">
+					<p>Testimonials</p>
+					<h2>What Our Guests Are Saying</h2>
+				</div>
+				<div class="testimonial-part">
+					<div class="slider2 owl-carousel">
+						<div class="testimonial-box">
+							<div class="testimonial-text">
+								<img src="img/star.svg" alt="Five-star rating icon" />
+								<p>Staying at The Lumina Stay was truly a wonderful experience. The service was exceptional, the atmosphere was warm, and the location made it easy to explore Las Vegas. Highly recommended for both business and leisure travelers!</p>
+							</div>
+							<div class="testimonialuser">
+								<div class="testimonialuserimg">
+									<img src="img/userimg1.png" alt="Photo of Sarah Martinez, guest reviewer" />
+								</div>
+								<div class="testimonialusertext">
+									<h4>Sarah Martinez</h4>
+									<p>CEO & Co-Founder</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-box">
+							<div class="testimonial-text">
+								<img src="img/star.svg" alt="Five-star rating icon" />
+								<p>The Lumina Stay exceeded our expectations. The amenities were top-notch, the staff was incredibly attentive, and the room was clean and beautifully designed. A true gem in the heart of Las Vegas.</p>
+							</div>
+							<div class="testimonialuser">
+								<div class="testimonialuserimg">
+									<img src="img/userimg2.png" alt="Photo of Michael Chen, guest reviewer" />
+								</div>
+								<div class="testimonialusertext">
+									<h4>Michael Chen</h4>
+									<p>Marketing Director</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-box">
+							<div class="testimonial-text">
+								<img src="img/star.svg" alt="Five-star rating icon" />
+								<p>I loved every moment at The Lumina Stay. From check-in to check-out, the experience was seamless. The relaxing ambiance and helpful staff made it a perfect choice for my Vegas getaway.</p>
+							</div>
+							<div class="testimonialuser">
+								<div class="testimonialuserimg">
+									<img src="img/userimg3.png" alt="Photo of Emily Davis, guest reviewer" />
+								</div>
+								<div class="testimonialusertext">
+									<h4>Emily Davis</h4>
+									<p>Travel Blogger</p>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="owl-nav">
+						<div class="owl-prev customNextBtn2">
+							<img src="img/slidericon1.svg" alt="Previous testimonial arrow icon" />
+						</div>
+						<div class="owl-next customPrevBtn2">
+							<img src="img/slidericon2.svg" alt="Next testimonial arrow icon" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ourgallery-area" id="gallery">
+			<div class="container">
+				<div class="ourgallery-heading">
+					<h2>Our Gallery</h2>
+				</div>
+				<div class="ourgallery-part">
+					<div class="slider3 owl-carousel">
+		
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg1.png" alt="Modern hotel lobby with elegant lighting and seating area" />
+							</div>
+						</div>
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg2.png" alt="Luxurious guest room with king-size bed and city view" />
+							</div>
+						</div>
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg3.png" alt="Outdoor swimming pool area surrounded by lounge chairs" />
+							</div>
+						</div>
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg4.png" alt="Stylish hotel restaurant with ambient lighting and table settings" />
+							</div>
+						</div>
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg1.png" alt="Modern hotel lobby with elegant lighting and seating area" />
+							</div>
+						</div>
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg2.png" alt="Luxurious guest room with king-size bed and city view" />
+							</div>
+						</div>
+						<div>
+							<div class="ourgalleryimg-box">
+								<img src="img/galleryimg3.png" alt="Outdoor swimming pool area surrounded by lounge chairs" />
+							</div>
+						</div>
+		
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mbgreamgetaway-area">
+			<section class="greamgetaway-area">
+				<div class="container">
+					<div class="greamgetaway-part">
+						<h2>Unlock Exclusive Savings on Your Dream Getaway!</h2>
+						<p>Ready for an unforgettable stay in Las Vegas? Book your room directly through our website now and enjoy special discounted rates</p>
+						<a href="#book">Book now</a>
+					</div>
+				</div>
+			</section>
+		</section>
+		<footer class="footer-area">
+			<div class="container">
+				<div class="footer-part">
+					<div class="footerlogo-text">
+						<h2>The Lumina Stay</h2>
+					</div>
+					<div class="footer-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#room">Rooms</a></li>
+							<li><a href="#amenities">Amenities</a></li>
+							<li><a href="mailto:support@theluminastay.com">Contact</a></li>
+							<li><a href="terms&conditions.html">Terms & Conditions</a></li>
+							<li><a href="privacypolicy.html">Privacy Policy</a></li>
+							<li><a href="cookiepolicy.html">Cookie Policy</a></li>
+						</ul>
+					</div>
+					<div class="footertext"> 
+						<p>
+							3949 State 38B Route, Newark Valley, Las Vegas, NV 13811, Contact: support@theluminastay.com<br>
+							Open Hours: 09:00 AM – 01:00 PM
+						</p>
+					</div>
+					
+					<!-- <div class="sociaicons-part">
+						<ul>
+							<li><a href="#"><img src="img/socialicon1.svg" alt="icon" /></a></li>
+							<li><a href="#"><img src="img/socialicon2.svg" alt="icon" /></a></li>
+							<li><a href="#"><img src="img/socialicon3.svg" alt="icon" /></a></li>
+							<li><a href="#"><img src="img/socialicon4.svg" alt="icon" /></a></li>
+						</ul>
+					</div>-->
+				</div>
+				
+			</div>
+			<div class="footer-copyright">
+				<p>© 2025 The Lumina Stay Hotel. All rights reserved.</p>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1173 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+
+@media screen and (min-width: 1379px) and (max-width: 1480px) {
+
+.nav-area {
+    display: block !important;
+}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1378px) {
+.nav-area {
+    display: block !important;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+.container {
+    padding: 0 30px;
+}
+
+.nav-area {
+    display: block !important;
+}
+
+.wtlslvheading {
+    width: 100%;
+}
+
+.wtlslvtext {
+    width: 100%;
+}
+
+.formitem {
+    padding: 0 25px;
+}
+
+.aboutuspart {
+    display: flex;
+    gap: 25px;
+}
+
+.textimg1 {
+    height: 90px;
+}
+
+.textimg2 {
+    height: 79px;
+}
+
+.roomssuites-text h2 {
+    font-size: 22px;
+}
+
+.sprbheading {
+    width: 100%;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.container {
+    padding: 0 30px;
+}
+
+.amenities-part {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.sprbpart {
+    align-items: center;
+}
+
+
+.ourgalleryimg-box {
+    width: 100%;
+    height: 352px;
+    display: block;
+}
+
+.sprbheading {
+    width: 100%;
+}
+
+
+.footer-nav ul li {
+    margin: 0 15px;
+}
+
+
+.roomssuites-text h2 {
+    font-size: 18px;
+}
+
+.aboutus-text p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+.textimg1 {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    max-width: 100%;
+    height: 70px;
+    width: 338px;
+}
+
+
+.aboutus-text h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 13px;
+}
+
+
+.aboutuspart {
+    display: flex
+;
+    gap: 16px;
+}
+
+
+.textimg2 {
+    position: absolute;
+    max-width: 100%;
+    left: 0;
+    bottom: 31px;
+    width: 338px;
+}
+
+
+.formitem {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.wtlslvheading {
+    width: 100%;
+}
+
+
+.wtlslvtext {
+    width: 100%;
+}
+
+
+.wtlslvpart {
+    display: flex
+;
+    gap: 60px;
+    align-items: center;
+}
+
+
+.nav-area {
+    display: block !important;
+}
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.container {
+    padding: 0 30px;
+}
+
+.navpart ul li {
+    margin: 0 20px;
+}
+
+.herotextpart h1 {
+    font-size: 50px;
+}
+
+.formpart {
+    padding: 25px 0px;
+    display: block;
+    height: inherit;
+}
+
+.formitem {
+    width: 100%;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+.formitem input {
+    margin-bottom: 20px;
+}
+
+
+.formitem input[type="submit"] {
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    height: 45px;
+    padding: 5px 13px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+
+
+.hero-area {
+    padding: 144px 0;
+    padding-bottom: 210px;
+}
+
+
+.wtlslv-area {
+    padding: 100px 0;
+    padding-top: 25px;
+}
+
+
+.wtlslvheading {
+    width: 100%;
+}
+
+
+.wtlslvtext {
+    width: 100%;
+}
+
+
+.wtlslvpart {
+    display: block;
+    gap: 0;
+}
+
+.wtlslv-right {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.wtlslv-left {
+    width: 100%;
+}
+
+.wtlslvheading h2 {
+    font-size: 38px;
+}
+
+
+.textimg1 {
+    display: none;
+}
+
+.textimg2 {
+    display: none;
+}
+
+
+.aboutuspart {
+    display: block;
+    gap: 0px;
+}
+
+
+.aboutus-left {
+    width: 100%;
+}
+
+
+.aboutus-inner {
+    width: 100%;
+}
+
+.aboutus-right {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.roomssuites-text h2 {
+    font-size: 20px;
+}
+
+
+.roomssuites-heading h2 {
+    font-size: 50px;
+}
+
+.mbaboutus {
+    display: block;
+    height: 147px;
+}
+
+.mbtextimg1 {
+    position: absolute;
+    max-width: 100%;
+    right: 0;
+}
+
+
+.mbtextimg2 {
+    position: absolute;
+    max-width: 100%;
+    left: 0;
+}
+
+
+.aboutus-inner {
+margin-bottom: 50px;
+margin-top: 40px;
+}
+
+.amenities-part {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.sprb-right {
+    width: 100%;
+    display: none;
+}
+
+.sprbpart {
+    display: block;
+}
+
+
+.sprb-left {
+    width: 100%;
+}
+
+.sprbheading {
+    padding-bottom: 0;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.sprbheading img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.sprbheading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 31px;
+}
+
+
+.sprbltitem-right {
+    width: 100%;
+}
+
+.sprbltitem-right p br {
+    display: none;
+}
+
+
+
+
+.customNextBtn2 img {
+    position: absolute;
+    left: 0;
+    top: initial;
+    bottom: 29%;
+}
+
+.customPrevBtn2 img {
+    position: absolute;
+    right: 0;
+    top: initial;
+    bottom: 29%;
+}
+
+
+
+.ourgalleryimg-box {
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+.greamgetaway-part {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.footer-nav ul li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.footer-nav ul li a {
+    font-size: 13px;
+}
+
+.nav-area {
+    display: block !important;
+}
+
+
+.newhero-heading h2 {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .herotextpart h1 {
+        font-size: 30px !important;
+        padding-bottom: 18px;
+    }
+}
+@media screen and (max-width: 767px) {
+.header-part {
+    display: block;
+}
+
+.headerleft {
+    display: none;
+}
+
+.headerright {
+    display: none;
+}
+
+
+.menupart {
+    display: block;
+}
+
+.bmheader-btn {
+    display: block;
+}
+
+
+.headerinner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlogo-text h2 {
+    font-size: 25px;
+    padding-bottom: 4px;
+}
+
+.navpart ul li {
+    display: block;
+    margin: 0 0px;
+    padding-bottom: 14px;
+}
+
+
+.nav-area {
+    padding: 20px 0;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 62px;
+}
+
+
+.header-btn a {
+    font-size: 14px;
+    font-weight: 500;
+    width: 124px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+.herotextpart h1 br {
+    display: none;
+}
+
+.herotextpart h1 {
+    font-size: 34px;
+    padding-bottom: 21px;
+}
+
+.herotextpart p {
+  font-size: 12px;
+}
+
+.herotextpart a {
+    font-size: 14px;
+    width: 198px;
+    height: 44px;
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+
+.hero-area {
+    padding: 100px 0;
+    padding-bottom: 160px;
+    background-image: inherit;
+}
+
+.formpart {
+    padding: 25px 16px;
+    box-sizing: border-box;
+    display: block;
+    height: initial;
+    position: relative;
+    top: -79px;
+}
+
+.formitem {
+    width: 100%;
+    border-right: none;
+    padding: 0 0px;
+}
+
+.formitem h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+
+.formitem input {
+
+    margin-bottom: 17px;
+}
+
+
+
+.formitem input[type="submit"] {
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    width: 100%;
+    height: 41px;
+    padding: 5px 13px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+
+.wtlslv-area {
+    padding: 40px 0;
+    padding-top: 0px;
+}
+
+
+.wtlslvpart {
+    display: block;
+    gap: 0px;
+}
+
+.wtlslv-right {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.wtlslv-left {
+    width: 100%;
+}
+
+.wtlslvheading {
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+
+.wtlslvheading h2 {
+    color: #434242;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.form-area {
+    padding: 0px 0;
+    margin-bottom: -30px;
+}
+
+.wtlslvtext {
+    width: 100%;
+}
+
+.wtlslvtext p {
+    font-size: 12px;
+    line-height: 23px;
+    padding-bottom: 19px;
+}
+
+.wtlslvbtn a {
+    font-size: 14px;
+    width: 100%;
+    height: 44px;
+    display: block;
+    line-height: 44px;
+}
+
+.aboutuspart {
+    display: block;
+    gap: 0px;
+}
+
+.aboutus-left {
+    width: 100%;
+}
+
+.aboutus-right{
+    width: 100%;
+}
+
+.aboutus-inner {
+    width: 100%;
+}
+
+.aboutus-text h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.aboutus-text p {
+    font-size: 12px;
+    line-height: 23px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+
+
+.aboutus-inner img {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.textimg1 {
+    display: none;
+}
+
+.textimg2 {
+    display: none;
+}
+
+.aboutus-area {
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.mbaboutus {
+    display: block;
+    height: 60px;
+    position: relative;
+}
+
+
+.mbtextimg1 {
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    right: -21px;
+}
+
+.mbtextimg2 {
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    left: -21px;
+}
+
+
+
+.aboutus-right{
+    padding-top: 35px;
+}
+
+
+.ourgallerybtn {
+    margin-top: 20px;
+    display: block;
+}
+
+.roomssuites-area {
+    padding: 40px 0;
+}
+
+
+.roomssuites-heading {
+    padding-bottom: 30px;
+    display: block;
+}
+
+.roomssuites-heading h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.roomssuites-heading a {
+    display: none;
+}
+
+.roomssuites-text h2 {
+    font-size: 18px;
+}
+
+.roomssuites-area .owl-dots {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.roomssuites-box {
+    height: 370px;
+}
+
+
+.roomssuites-btn a {
+    font-size: 12px;
+    width: 145px;
+    height: 36px;
+}
+
+.amenities-heading h2 {
+    font-size: 35px;
+}
+
+
+.amenities-heading {
+    padding-bottom: 30px;
+}
+
+
+.amenities-area {
+    padding: 40px 0;
+}
+
+
+.amenities-part {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+
+.amenities-box img {
+    width: 48px;
+    height: 48px;
+    padding-bottom: 15px;
+}
+
+.amenities-box h3 {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.amenities-box p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+
+.sprbheading img {
+    display: block;
+}
+
+
+.sprbpart {
+    display: block;
+    gap: 0px;
+}
+
+.sprb-left {
+    width: 100%;
+}
+
+.sprb-right {
+    width: 100%;
+    display: none;
+}
+
+.sprb-area {
+    padding: 40px 0;
+}
+
+
+.sprbheading {
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.sprbheading h2 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.sprbltitem-left img {
+    width: 40px;
+    height: 40px;
+}
+
+.sprbltitem-left {
+    width: 40px;
+}
+
+.sprbltitem-right {
+    width: 100%;
+}
+
+
+.sprbltitem-right h3 {
+    font-size: 17px;
+    margin: 0;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+
+
+.sprbltitem-right p br {
+    display: none;
+}
+
+.sprbltitem-right p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+
+.sprbltitem-box {
+    align-items: start;
+    gap: 18px;
+    padding-bottom: 25px;
+}
+
+.sprbbtn a {
+    font-size: 14px;
+    width: 100%;
+    height: 44px;
+    display: block;
+    line-height: 44px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+
+.testimonial-area {
+    padding: 40px 0;
+}
+
+
+.testimonial-heading p {
+    font-size: 16px;
+}
+
+.testimonial-heading h2 {
+    font-size: 30px;
+}
+
+
+.testimonial-box {
+    width: 100%;
+}
+
+
+.testimonial-text p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.testimonialusertext h4 {
+    font-size: 14px;
+}
+
+.testimonialusertext p {
+    font-size: 10px;
+}
+
+
+.testimonialuserimg img {
+    width: 42px;
+    height: 42px;
+}
+
+
+.testimonialuser {
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.testimonial-area .owl-dots {
+    padding-top: 18px;
+}
+
+
+.testimonial-area .owl-carousel button.owl-dot.active {
+    width: 25px !important;
+}
+
+
+.customNextBtn2 img {
+    top: initial;
+    width: 30px;
+    height: 30px;
+    bottom: 20%;
+}
+
+
+.customPrevBtn2 img {
+    position: absolute;
+    right: 0;
+    top: initial;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    bottom: 20%;
+}
+
+.testimonial-heading {
+    padding-bottom: 17px;
+}
+
+
+.testimonial-text img {
+    margin-bottom: 14px;
+    height: 21px;
+}
+
+
+.ourgallery-area {
+    padding: 40px 0;
+}
+
+.ourgallery-heading h2 {
+    font-size: 35px;
+}
+
+
+.ourgallery-heading {
+    padding-bottom: 35px;
+}
+
+
+.ourgallery-area .owl-dots {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.ourgallery-area .owl-carousel button.owl-dot.active {
+    width: 25px !important;
+}
+
+.greamgetaway-part {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.greamgetaway-part h2 {
+    font-size: 28px;
+}
+
+.greamgetaway-part p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0px;
+}
+
+.greamgetaway-part a {
+    font-size: 14px;
+    width: 100%;
+    height: 44px;
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    margin: auto;
+    margin-top: 19px;
+    box-sizing: border-box;
+}
+
+
+.footer-area {
+    padding: 40px 0;
+    padding-bottom: 0px;
+}
+
+
+.footerlogo-text h2 {
+    font-size: 30px;
+}
+
+
+.footer-nav ul li {
+    display: block;
+    margin: 0 0px;
+    padding-bottom: 12px;
+}
+
+.footer-nav ul li a {
+    font-size: 14px;
+}
+
+.footerlogo-text {
+    padding-bottom: 30px;
+}
+
+
+.footertext p br {
+    display: none;
+}
+
+
+.footertext p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.footertext {
+    padding-top: 20px;
+}
+
+
+.footer-nav ul {
+    padding-bottom: 20px;
+}
+
+
+
+.sociaicons-part ul {
+    padding-top: 30px;
+}
+
+
+.greamgetaway-area {
+    background-image: inherit;
+    padding: 35px 0;
+    padding-bottom: 20px;
+
+}
+
+.tpnewherotextpart h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.tpnewherotextpart p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.tpnewhero-area {
+    background-image: inherit;
+    padding: 145px 0;
+}
+
+.newherott-area {
+    padding: 40px 0;
+}
+
+.newhero-heading h2 {
+    font-size: 30px;
+    line-height: 43px;
+    padding-bottom: 15px;
+}
+
+
+.newhero-heading p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.newheroitem1 h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+
+.newheroitem1 p {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+
+.newheroitem2 h5 {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+
+.newheroitem2 ul li p {
+    font-size: 12px;
+    line-height: 25px;
+    padding-left: 16px;
+    margin-top: -15px;
+}
+
+.newheroitem2 h3 {
+    font-size: 20px;
+}
+
+.newheroitem2 {
+    padding-bottom: 15px;
+}
+
+.newheroitem1 {
+    padding-bottom: 15px;
+}
+
+.newheroitem3 h3 {
+    font-size: 16px;
+}
+
+.newheroitem3 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+}
